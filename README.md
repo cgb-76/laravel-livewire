@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Development Dependencies
+
+1. Docker
+```
+sudo apt-get install docker.io docker-compose
+```
+2. Make
+```
+sudo apt install make
+```
+
 ## Development Setup
 
 1. Clone the repo to your local machine
