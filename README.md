@@ -28,6 +28,7 @@ make
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 sail up -d
 sail npm install
+sail artisan migrate
 ```
 
 3. You should see a bunch of docker containers come up
