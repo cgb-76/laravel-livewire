@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.field-error {
+    font-size: 80%;
+    color: #c00;
+    margin-top: 5px;
+    display: block;
+}
