@@ -21,7 +21,8 @@ sudo apt install make
 ## Development Setup
 
 1. Clone the repo to your local machine
-2. In the project root, execute the following commands:
+2. Rename .env.example to .env and make the desired changes to support your environment
+3. In the project root, execute the following commands:
 
 ```
 make
@@ -31,6 +32,6 @@ sail npm install
 sail artisan migrate
 ```
 
-3. You should see a bunch of docker containers come up
-4. In a browser, navigate to http://localhost/
-5. Register a new user and log in
+4. You should see a bunch of docker containers come up
+5. In a browser, navigate to http://localhost/
+6. Register a new user and log in
