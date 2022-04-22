@@ -2,8 +2,6 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Models\Master;
-use App\Models\Child;
 use App\Http\Controllers\MasterController;
 use App\Http\Controllers\ChildController;
 /*
